@@ -1,27 +1,104 @@
-# 📊 PwC Call Center Performance Analysis Dashboard  
+# 📞 PwC Call Center Analysis Dashboard (Power BI)
 
-Welcome to the **PwC Call Center Performance Analysis Dashboard**, designed to help visualize and analyze key metrics in call center operations. This project is part of the **Digital Accelerator program**, empowering data-driven decision-making through Power BI.  
+A single-page **Power BI dashboard** that tracks call center efficiency, agent performance and customer satisfaction. Built as part of a PwC virtual job simulation.
 
-## 🚀 Project Overview  
-In the fast-changing digital world, **data-driven insights** are crucial for improving **customer service efficiency**. This dashboard enables **call center managers** to monitor agent performance, customer satisfaction, and call trends—leading to **better operational strategies and enhanced customer experience**.  
+---
 
-### **Key Business Insights**  
-📌 **Why is this important?**  
-- Provides a **real-time view** of call center operations  
-- Helps improve **customer satisfaction** and **service efficiency**  
-- Enables **data-driven decisions** for optimizing agent performance  
+## 🎯 Project Overview
 
-### **Key Performance Indicators (KPIs)**  
-✅ **Overall Customer Satisfaction**  
-✅ **Total Calls Answered vs. Abandoned**  
-✅ **Call Volume by Time** (Peak vs. Off-Peak Hours)  
-✅ **Average Speed of Answer**  
-✅ **Agent Performance Quadrant** (*Talk Duration vs. Calls Answered*)  
+**Objective:** Help a call center manager answer questions such as:
 
-## 🛠️ Tools & Technologies  
-- **Power BI** – Interactive data visualization  
-- **DAX (Data Analysis Expressions)** – Calculated measures  
-- **Power Query** – Data transformation  
-- **Excel/SQL** – Dataset source   
+- How many calls were received, answered and left unanswered?
+- How quickly are calls answered, and how long do agents spend on calls?
+- How satisfied are customers overall and per agent?
+- Which agents perform best, and which need support?
+- How do call volumes change month by month and by topic?
+
+---
+
+## 📈 Key Metrics
+
+| KPI | Value |
+|---|---|
+| Total Calls | _add value_ |
+| Answered Calls | _add value_ |
+| Unanswered Calls | _add value_ |
+| Avg. Speed of Answer (sec) | _add value_ |
+| Avg. Satisfaction Rating | _add value_ |
+| Number of Agents | _add value_ |
+
+---
+
+## ✨ Dashboard Features
+
+- **KPI cards** for calls, answer speed and satisfaction
+- **Slicers** for Agent, Date, Resolved status and Topic
+- **Gauge** for average satisfaction rating
+- **Performance Quadrant table** comparing agents side by side
+- **Cross-filtering** between all visuals
+
+---
+
+## 🧩 Visuals Explained
+
+| Visual | Chart Type | What It Shows |
+|---|---|---|
+| Average Talk Duration and Time by Agent | Area chart | Talk duration per agent over time |
+| Answered and Unanswered Calls by Month | Column + line combo | Monthly call volume and missed calls |
+| Average Satisfaction Rating | Gauge | Overall satisfaction against target |
+| Satisfaction Ratings by Agent | Pie chart | Rating distribution per agent |
+| Performance Quadrant | Table | Answered calls, talk time, resolution, satisfaction and unanswered calls per agent |
+
+---
+
+## 🔍 Key Insights
+
+> Fill these in from your dashboard (default view, all filters cleared).
+
+- **Answer rate:** _[x%]_ of calls were answered, leaving _[n]_ unanswered.
+- **Speed:** Average speed of answer is _[x]_ seconds.
+- **Satisfaction:** Average rating is _[x]_ out of 5.
+- **Top agent:** _[Agent]_ has the best mix of resolution and satisfaction; _[Agent]_ has the most missed calls.
+- **Busiest month:** _[Month]_ had the highest call volume.
+
+---
+
+## 🗂 Dataset
+
+| Column | Description |
+|---|---|
+| Agent | Call center agent name |
+| Date / Time | When the call took place |
+| Topic | Reason for the call |
+| Answered (Y/N) | Whether the call was answered |
+| Resolved | Whether the issue was resolved |
+| Speed of Answer (sec) | Wait time before an agent answered |
+| AvgTalkDuration | Length of the call |
+| Satisfaction Rating | Customer rating of the call |
+
+*(Update to match your source file.)*
+
+---
+
+## 🛠 Tools & Technologies
+
+- **Power BI Desktop**: modelling and visuals
+- **Power Query**: data cleaning
+- **DAX / calculated columns**: Answered Calls, Unanswered Calls
+- **Excel / CSV**: source data
+
+---
+
+## 🔮 Future Improvements
+
+- Add a satisfaction-vs-speed scatter plot
+- Add hourly / day-of-week call volume heatmap
+- Add targets and alerts for answer rate and speed
+- Add resolution-rate % card and trend
+
+---
 
 
+## 📬 Contact
+
+**Your Name** · [LinkedIn](https://linkedin.com/in/your-profile) · [Email](mailto:your.email@example.com)
