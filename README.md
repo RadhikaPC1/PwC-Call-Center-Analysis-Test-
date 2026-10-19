@@ -51,18 +51,6 @@ A single-page **Power BI dashboard** that tracks call center efficiency, agent p
 
 ---
 
-## 🔍 Key Insights
-
-> Fill these in from your dashboard (default view, all filters cleared).
-
-- **Answer rate:** _[x%]_ of calls were answered, leaving _[n]_ unanswered.
-- **Speed:** Average speed of answer is _[x]_ seconds.
-- **Satisfaction:** Average rating is _[x]_ out of 5.
-- **Top agent:** _[Agent]_ has the best mix of resolution and satisfaction; _[Agent]_ has the most missed calls.
-- **Busiest month:** _[Month]_ had the highest call volume.
-
----
-
 ## 🗂 Dataset
 
 | Column | Description |
@@ -99,6 +87,3 @@ A single-page **Power BI dashboard** that tracks call center efficiency, agent p
 ---
 
 
-## 📬 Contact
-
-**Your Name** · [LinkedIn](https://linkedin.com/in/your-profile) · [Email](mailto:your.email@example.com)
